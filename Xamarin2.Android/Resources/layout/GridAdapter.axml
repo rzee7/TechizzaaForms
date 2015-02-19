@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<!--<TextView
+      android:id="@+id/txtViewTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#000000"
+      android:text="Tilte"
+      android:textSize="28dip"
+      android:textStyle="normal" />-->
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="10.0dp" />
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Name"
+        android:textSize="18dip"
+        android:textStyle="normal"
+        android:layout_marginLeft="20.0dp"
+        android:layout_marginTop="5.0dp"
+        android:layout_below="@+id/imgView" />
+</RelativeLayout>

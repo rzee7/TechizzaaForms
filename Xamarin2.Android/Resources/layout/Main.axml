@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    <Button
+        android:id="@+id/SimpleButton"
+        android:text="Simple"
+        android:textColor="#000000"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp" />
+    <Button
+        android:id="@+id/ListButton"
+        android:text="List"
+        android:textColor="#000000"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/SimpleButton" />
+    <Button
+        android:id="@+id/GridButton"
+        android:text="Grid"
+        android:textColor="#000000"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/ListButton" />
+</LinearLayout>
